@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terppy Times | Lifestyle, Merchandise & Digital Design</title>
+    <style>
+        /* Color Palette: Black (#111), Beige (#E8E4D9), White (#FFF), Eggshell (#F4F1EA), Red (#C72A25) */
+        :root {
+            --black: #111111;
+            --beige: #E8E4D9;
+            --white: #FFFFFF;
+            --eggshell: #F4F1EA;
+            --red: #C72A25;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--eggshell);
+            color: var(--black);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .header-logo {
+            max-width: 250px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            color: var(--black);
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            color: var(--red);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        .story-section {
+            background-color: var(--white);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+            margin-bottom: 40px;
+            border-top: 4px solid var(--red);
+        }
+
+        .story-section p {
+            font-size: 1.1rem;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        .services-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .service-card {
+            background-color: var(--beige);
+            padding: 30px;
+            border-radius: 6px;
+            flex: 1 1 250px;
+            text-align: center;
+        }
+
+        .service-card h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+            color: var(--black);
+            text-transform: uppercase;
+        }
+
+        .service-card p {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 0;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background-color: var(--red);
+            margin: 40px auto;
+        }
+
+        footer {
+            margin-top: 60px;
+            font-size: 0.85rem;
+            color: #777;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo dynamically loads from the same folder -->
+        <img src="terppytimes logo.jpg" alt="Terppy Times Logo" class="header-logo">
+
+        <h1>Therapeutical Lifestyle & Creative Agency</h1>
+        <h2>Rooted in Mycology. Built for the Future.</h2>
+
+        <div class="story-section">
+            <p>Founded in 2021, our journey began with a distinct vision: building a premier therapeutical company centered around the science and culture of mycology. While that original dream remains the beating heart of our brand, our infrastructure has rapidly expanded.</p>
+            
+            <p>Today, this division operates as a high-end digital design and lifestyle merchandising agency. We provide the creative backbone—building enterprise applications, designing brand identities, and manufacturing custom merchandise—that powers our broader network of companies.</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>App & Web Design</h3>
+                <p>Developing seamless, scalable digital architecture, full-stack websites, and mobile applications for our core partner networks.</p>
+            </div>
+            
+            <div class="service-card">
+                <h3>Custom Merch & Apparel</h3>
+                <p>Manufacturing premium lifestyle goods, customized drinkware, hardware branding, and bespoke clothing lines.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Brand Marketing</h3>
+                <p>Translating complex business structures and therapeutical concepts into clean, market-ready consumer identities and logos.</p>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2021&ndash;2026 Terppy Times Lifestyle & Marketing. All Rights Reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
